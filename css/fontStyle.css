@@ -1,0 +1,6 @@
+#headlineIndex {
+    background: linear-gradient(90deg, #002aff, #fd29fd, blue);
+    font-weight: 650;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
