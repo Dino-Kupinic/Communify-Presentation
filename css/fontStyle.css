@@ -1,6 +1,25 @@
+#landingPage {
+    padding-bottom: 5em;
+    margin: 1em auto;
+}
+
 #headlineIndex {
-    background: linear-gradient(90deg, #002aff, #fd29fd, blue);
+    background: linear-gradient(to right, #4eacff, #6448e0, #e14eff);
     font-weight: 650;
+    font-size: 1.5em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#subheadline {
+    font-size: 25px;
+}
+
+#logo {
+    width: 200px;
+}
+
+.text {
+    font-size: 25px;
+    color: #002163;
 }
