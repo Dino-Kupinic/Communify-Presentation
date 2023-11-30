@@ -1,52 +1,50 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <title>Presentation Communfiy</title>
-    <link rel="icon" href="images/CommunifyLogo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="dist/reset.css">
-    <link rel="stylesheet" href="dist/reveal.css">
-    <link rel="stylesheet" href="dist/theme/black.css">
-    <link rel="stylesheet" href="css/fontStyle.css">
-    <!-- Theme used for syntax highlighted code -->
-    <link rel="stylesheet" href="plugin/highlight/monokai.css">
-</head>
-<body>
+		<title>Presentation Communfiy</title>
+		<link rel="icon" href="images/CommunifyLogo.svg" type="image/x-icon">
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="css/fontStyle.css">
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
 
-<div class="reveal">
-    <div class="slides">
-        <section id="landingPage" data-background="whitesmoke">
+		<div class="reveal">
+			<div class="slides">
+				<section id="landingPage" data-background="whitesmoke">
 
-            <img id="logo" alt="communify.svg" src="images/Communify.svg">
-            <div id="headlineIndex">Welcome at Communify!</div>
-            <div id="subheadline">A great chance for getting connected to people!</div>
-            <img src="images/cardsLandingPage.png" alt="cardsLandingPage">
-            <div class="text">Created by Dino Kupinic, Jannick Angerer und Johannes Kerbl</div>
-            <div class="htl-steyr-logo">
-                <p class="underlined-text">A project from the HTL Steyr </p><img id="htl_logo"
-                                                                                 src="images/HTL_Steyr_Logo_Transparent.png"
-                                                                                 alt="htl_logo">
-            </div>
-        </section>
-        <section id="chatRoomLandingPag">
-            <section>CHATROOMS <img src="media/ChatRoomLandingPage.png"></section>
-            <section><img src="media/ChatroomHeaderBar.png"></section>
-            <section><img id="createRoomModalWD" src="media/ModalOpenSmall.png"></section>
-            <section><img id="createRoomModalData" src="media/openModalWithData.png"></section>
-            <section><img src="media/ChatroomList.png"></section>
-            <section><img src="media/ChatRoomSettings.png"></section>
-            <section><img src="media/ChatRoom.png"></section>
-            <section><img src="media/ChatroomHeaderBar.png"></section>
-            <section><img src="media/userProfileSettings.png"></section>
-            <section><img src="media/privateInformationOpen.png"></section>
-            <section><img src="media/pulbicInformationOpen.png"></section>
-        </section>
-        <section>
-            <section>Datenbank Code
+					<img id="logo" alt="communify.svg" src="images/Communify.svg">
+					<div id="headlineIndex">Welcome at Communify! </div>
+					<div id="subheadline">A great chance for getting connected to people!</div>
+					<img src="images/cardsLandingPage.png" alt="cardsLandingPage">
+					<div class="text">Created by Dino Kupinic, Jannick Angerer und Johannes Kerbl</div>
+					<div class="htl-steyr-logo">
+						<p class="underlined-text">A project from the HTL Steyr </p><img id="htl_logo" src="images/HTL_Steyr_Logo_Transparent.png" alt="htl_logo">
+					</div>
+				</section>
+				<section id="chatRoomLandingPag">
+					<section>CHATROOMS <img src="media/ChatRoomLandingPage.png"></section>
+					<section><img src="media/ChatroomHeaderBar.png"></section>
+					<section><img id="createRoomModalWD" src="media/ModalOpenSmall.png"></section>
+					<section><img id="createRoomModalData" src="media/openModalWithData.png"></section>
+					<section><img src="media/ChatroomList.png"></section>
+					<section><img src="media/ChatRoomSettings.png"></section>
+					<section><img src="media/ChatRoom.png"></section>
+					<section><img src="media/ChatroomHeaderBar.png"></section>
+					<section><img src="media/userProfileSettings.png"></section>
+					<section><img src="media/privateInformationOpen.png"></section>
+					<section><img src="media/pulbicInformationOpen.png"></section>
+				</section>
+                <section>
+                    <section>Datenbank Code
 
-                <pre>
+                        <pre>
                 <code data-trim data-noescape style="font-size: 15px; line-height: 1">
                     CREATE TABLE IF NOT EXISTS room
                     (
@@ -104,31 +102,31 @@
                         ADD FOREIGN KEY (current_room_id) REFERENCES room (room_id);
                 </code>
             </pre>
-            </section>
-            <section>Datenbank Diagramm
-                <img src="media/db_model.png">
-            </section>
-            <section>Datenbank Architektur
-                <img src="media/architektur.png">
-            </section>
-        </section>
-    </div>
-</div>
+                    </section>
+                    <section>Datenbank Diagramm
+                        <img src="media/db_model.png">
+                    </section>
+                    <section>Datenbank Architektur
+                        <img src="media/architektur.png">
+                    </section>
+                </section>
+			</div>
+		</div>
 
 <script src="dist/reveal.js"></script>
 <script src="plugin/notes/notes.js"></script>
 <script src="plugin/markdown/markdown.js"></script>
 <script src="plugin/highlight/highlight.js"></script>
 <script>
-  // More info about initialization & config:
-  // - https://revealjs.com/initialization/
-  // - https://revealjs.com/config/
-  Reveal.initialize({
-    hash: true,
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+        hash: true,
 
-    // Learn about plugins: https://revealjs.com/plugins/
-    plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
-  })
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
 </script>
 </body>
 </html>
