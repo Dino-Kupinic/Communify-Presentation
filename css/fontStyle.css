@@ -49,3 +49,11 @@
     background-repeat: no-repeat;
     background-position: left bottom;
 }
+
+#createRoomModalData {
+    height: 500px;
+}
+
+#createRoomModalWD {
+    height:  500px;
+}
